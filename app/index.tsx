@@ -1,15 +1,8 @@
-import { Image, Platform, View } from "react-native";
-
-import { HelloWave } from "@/components/HelloWave";
-import ParallaxScrollView from "@/components/ParallaxScrollView";
-import { ThemedText } from "@/components/ThemedText";
-import { ThemedView } from "@/components/ThemedView";
+import { View } from "react-native";
 import { StyleSheet } from "react-native-unistyles";
 
 export default function HomeScreen() {
-  return (
-      <View style={styles.testBoxShadow} />
-  );
+  return <View style={styles.testBoxShadow} />;
 }
 
 const styles = StyleSheet.create({
